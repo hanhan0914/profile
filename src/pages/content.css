@@ -1,0 +1,303 @@
+/* 預設樣式 */
+.text-white {
+    color: white;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  /* .text-center {
+    text-align: center;
+  } */
+
+  @media screen and (min-width: 1400px) {
+    .container {
+      width: 80%;
+      margin-left: 100px;
+    }
+    
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 11%;
+      left: 10%;
+      width: 50%;
+    }
+    
+    .temporal {
+      top: 29.6%;
+      left: 26%;
+      width: 68%;
+    }
+    
+    .parietal {
+      top: 9%;
+      left: 52%;
+      width: 48%;
+    }
+    
+    .occipital {
+      top: 30%;
+      left: 91%;
+      width: 9%;
+    }
+
+    .front-brain{
+     position:absolute;
+     top:2%;
+     left:-35%;
+     font-size:21px
+     
+    }
+
+    .parietial-brain{
+      position:absolute;
+      top:5%;
+      left:92%;
+      font-size:21px
+    }
+
+    .temporal-brain{
+      position:absolute;
+      top:43%;
+      left:-38%;
+      font-size:21px
+
+    }
+
+    .occipital-brain{
+      position:absolute;
+      top:45%;
+      left:88%;
+      font-size:21px
+    }
+  }
+  
+
+  @media screen and (min-width: 1300px)and (max-width: 1399px) {
+    .container {
+      width: 80%;
+      margin-left: 100px;
+    }
+    
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 11%;
+      left: 10%;
+      width: 50%;
+    }
+    
+    .temporal {
+      top: 29.6%;
+      left: 26%;
+      width: 68%;
+    }
+    
+    .parietal {
+      top: 9%;
+      left: 52%;
+      width: 48%;
+    }
+    
+    .occipital {
+      top: 30%;
+      left: 91%;
+      width: 9%;
+    }
+  }
+  
+  
+  /* 1200px 寬度以上的媒體查詢 */
+  @media screen and (min-width: 1100px)and (max-width: 1299px) {
+    .container {
+      width: 80%;
+      margin-left: 100px;
+    }
+    
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 20%;
+      left: 26%;
+      width: 30%;
+    }
+    
+    .temporal {
+      top: 60vh;
+      left: 36%;
+      width: 39%;
+    }
+    
+    .parietal {
+      top: 19%;
+      left: 51%;
+      width: 28%;
+    }
+    
+    .occipital {
+      top: 405px;
+      left: 74%;
+      width: 5.5%;
+    }
+  }
+
+   /* 1000px 至 1199px 寬度的媒體查詢 */
+   @media screen and (min-width: 1000px) and (max-width: 1099px) {
+    .container {
+      width: 80%;
+      margin-left: 50px;
+    }
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 20%;
+      left: 26%;
+      width: 30%;
+    }
+    
+    .temporal {
+      top: 55vh;
+      left: 36%;
+      width: 39%;
+    }
+    
+    .parietal {
+      top: 19%;
+      left: 51%;
+      width: 28%;
+    }
+    
+    .occipital {
+      top: 370px;
+      left: 74%;
+      width: 5.5%;
+    }
+  }
+  
+  
+  /* 992px 至 1199px 寬度的媒體查詢 */
+  @media screen and (min-width: 800px) and (max-width: 999px) {
+    .container {
+      width: 80%;
+      margin-left: 50px;
+    }
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 20%;
+      left: 26%;
+      width: 30%;
+    }
+    
+    .temporal {
+      top: 53vh;
+      left: 36%;
+      width: 39%;
+    }
+    
+    .parietal {
+      top: 19%;
+      left: 51%;
+      width: 28%;
+    }
+    
+    .occipital {
+      top: 355px;
+      left: 74%;
+      width: 5.5%;
+    }
+  }
+  
+  /* 768px 至 991px 寬度的媒體查詢 */
+  @media screen and (min-width: 629px) and (max-width: 799px) {
+    .container {
+      width: 90%;
+      margin-left: 20px;
+    }
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 20%;
+      left: 26%;
+      width: 30%;
+    }
+    
+    .temporal {
+      top: 50vh;
+      left: 36%;
+      width: 39%;
+    }
+    
+    .parietal {
+      top: 19%;
+      left: 51%;
+      width: 28%;
+    }
+    
+    .occipital {
+      top: 340px;
+      left: 74%;
+      width: 5.5%;
+    }
+  }
+  
+  /* 小於 767px 寬度的媒體查詢 */
+  @media screen and (max-width: 628px) {
+    .container {
+      width: 100%;
+      margin-left: 0;
+    }
+    .image {
+      position: absolute;
+      transition: transform 0.6s;
+    }
+    
+    .front {
+      top: 20%;
+      left: 26%;
+      width: 30%;
+    }
+    
+    .temporal {
+      top: 48vh;
+      left: 36%;
+      width: 39%;
+    }
+    
+    .parietal {
+      top: 19%;
+      left: 51%;
+      width: 28%;
+    }
+    
+    .occipital {
+      top: 324px;
+      left: 74%;
+      width: 5.5%;
+    }
+  }
+  
