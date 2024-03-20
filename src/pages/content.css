@@ -33,8 +33,8 @@
     }
     
     .temporal {
-      top: 29.6%;
-      left: 26%;
+      top: 36%;
+      left: 25%;
       width: 68%;
     }
     
@@ -45,7 +45,7 @@
     }
     
     .occipital {
-      top: 30%;
+      top: 37%;
       left: 91%;
       width: 9%;
     }
@@ -67,7 +67,7 @@
 
     .temporal-brain{
       position:absolute;
-      top:43%;
+      top:50%;
       left:-38%;
       font-size:21px
 
@@ -75,7 +75,7 @@
 
     .occipital-brain{
       position:absolute;
-      top:45%;
+      top:54%;
       left:88%;
       font-size:21px
     }

@@ -27,7 +27,7 @@ function Content(){
 
 <div className=" text-white  bg-black mt-10">
         {/* height:1200px width:100% */}
-        <div className="image-container" style={{ position: 'relative',height:'1200px', backgroundColor: 'black' }}>
+        <div className="image-container" style={{ position: 'relative',height:'900px', backgroundColor: 'black' }}>
 
           <img  src='public/image/front.png' className="image front hover:scale-110 transition duration-600"onMouseEnter={() => setShowFront(true)}/>
            {showFront ? 
