@@ -1,7 +1,9 @@
 
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 import { Avatar, Card } from 'antd';
+import { MailFilled} from '@ant-design/icons'
 const { Meta } = Card;
+
 
 
 
@@ -22,7 +24,7 @@ function Contact(){
       <img
         alt="example"
         src="/public/image/gray2.jpg"
-        style={{height:'80px',width:'800px'}}
+        style={{height:'70px',width:'800px'}}
       />
     }
     actions={[
@@ -31,12 +33,21 @@ function Contact(){
       <EllipsisOutlined key="ellipsis" />,
     ]}
   >
-    <Meta
-      avatar={<Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=8" />}
+    {/* <Meta
+      avatar={<Avatar src="/public/image/girl.png" style={{width:'250px',height:'250px'}} />}
       title="Contact Me!"
       description="This is the description"
       style={{height:'300px'}}
-    />
+    /> */}
+    <div style={{display:'flex'}}>
+    <Avatar src="/public/image/girl.png" style={{width:'250px',height:'250px'}} />
+    <div className='ml-40 mt-7'>
+        <p className='text-2xl'>Elaine Chen</p>
+        <p><MailFilled /> amy8611020923@gmail.com</p>
+        <p>222</p>
+        <p>333</p>
+    </div>
+    </div>
   </Card>
   </div>
   </>
