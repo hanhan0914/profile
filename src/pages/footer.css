@@ -1,0 +1,9 @@
+.text-style{
+    background: linear-gradient(to top, #F9D9CA, #D18063, #EADB80);
+   background: -webkit-linear-gradient(to top, #F9D9CA, #D18063, #EADB80);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   margin-top:60px;
+   font-size:18px;
+}
