@@ -27,57 +27,61 @@
     }
     
     .front {
-      top: 11%;
-      left: 10%;
-      width: 50%;
+      top: 19%;
+      left: 28%;
+      width: 26%;
     }
     
     .temporal {
-      top: 36%;
-      left: 25%;
-      width: 68%;
+      top: 42%;
+      left: 37%;
+      width: 34%;
     }
     
     .parietal {
-      top: 9%;
-      left: 52%;
-      width: 48%;
+      top: 17%;
+      left: 50%;
+      width: 24%;
     }
     
     .occipital {
-      top: 37%;
-      left: 91%;
-      width: 9%;
+      top: 43%;
+      left: 70%;
+      width: 4%;
     }
 
     .front-brain{
      position:absolute;
-     top:2%;
-     left:-35%;
-     font-size:21px
+     top:11%;
+     left:10%;
+     font-size:21px;
+     width:300px
      
     }
 
     .parietial-brain{
       position:absolute;
-      top:5%;
-      left:92%;
-      font-size:21px
+      top: 7%;
+      left:72%;
+      font-size:21px;
+      width:300px
     }
 
     .temporal-brain{
       position:absolute;
-      top:50%;
-      left:-38%;
-      font-size:21px
+      top:60%;
+      left:13%;
+      font-size:21px;
+      width:300px
 
     }
 
     .occipital-brain{
       position:absolute;
-      top:54%;
-      left:88%;
-      font-size:21px
+      top:60%;
+      left:68%;
+      font-size:21px;
+      width:300px
     }
   }
   
@@ -94,28 +98,61 @@
     }
     
     .front {
-      top: 11%;
-      left: 10%;
-      width: 50%;
+      top: 19.5%;
+      left: 28%;
+      width: 26%;
     }
     
     .temporal {
-      top: 29.6%;
-      left: 26%;
-      width: 68%;
+      top: 42%;
+      left: 36%;
+      width: 36%;
     }
     
     .parietal {
-      top: 9%;
-      left: 52%;
-      width: 48%;
+      top: 17.5%;
+      left: 50%;
+      width: 25%;
     }
     
     .occipital {
-      top: 30%;
-      left: 91%;
-      width: 9%;
+      top: 40.5%;
+      left: 70%;
+      width: 5%;
     }
+    .front-brain{
+      position:absolute;
+      top:14%;
+      left:7%;
+      font-size:20px;
+      width:300px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 7%;
+       left:71%;
+       font-size:20px;
+       width:300px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:60%;
+       left:12%;
+       font-size:20px;
+       width:300px
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:60%;
+       left:68%;
+       font-size:20px;
+       width:350px
+     }
   }
   
   
@@ -132,28 +169,63 @@
     }
     
     .front {
-      top: 20%;
-      left: 26%;
-      width: 30%;
+      top: 19%;
+      left: 27%;
+      width: 29%;
     }
     
     .temporal {
-      top: 60vh;
+      top: 55vh;
       left: 36%;
       width: 39%;
     }
     
     .parietal {
-      top: 19%;
+      top: 18%;
       left: 51%;
-      width: 28%;
+      width: 26%;
     }
     
     .occipital {
-      top: 405px;
-      left: 74%;
+      top: 358px;
+      left: 73%;
       width: 5.5%;
     }
+
+    .front-brain{
+      position:absolute;
+      top:15%;
+      left:7%;
+      font-size:16px;
+      width:350px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 13%;
+       left:70%;
+       font-size:16px;
+       width:300px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:59%;
+       left:7%;
+       font-size:16px;
+       width:350px;
+       
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:60%;
+       left:68%;
+       font-size:16px;
+       width:300px
+     }
   }
 
    /* 1000px 至 1199px 寬度的媒體查詢 */
@@ -174,7 +246,7 @@
     }
     
     .temporal {
-      top: 55vh;
+      top: 54vh;
       left: 36%;
       width: 39%;
     }
@@ -186,10 +258,44 @@
     }
     
     .occipital {
-      top: 370px;
+      top: 363px;
       left: 74%;
-      width: 5.5%;
+      width: 5%;
     }
+    .front-brain{
+      position:absolute;
+      top:15%;
+      left:7%;
+      font-size:16px;
+      width:300px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 9%;
+       left:70%;
+       font-size:16px;
+       width:250px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:59%;
+       left:7%;
+       font-size:16px;
+       width:350px;
+       
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:58%;
+       left:66%;
+       font-size:16px;
+       width:300px
+     }
   }
   
   
@@ -211,7 +317,7 @@
     }
     
     .temporal {
-      top: 53vh;
+      top: 49vh;
       left: 36%;
       width: 39%;
     }
@@ -223,10 +329,44 @@
     }
     
     .occipital {
-      top: 355px;
-      left: 74%;
+      top: 325px;
+      left: 73.5%;
       width: 5.5%;
     }
+    .front-brain{
+      position:absolute;
+      top:15%;
+      left:5%;
+      font-size:14px;
+      width:300px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 9%;
+       left:68%;
+       font-size:14px;
+       width:250px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:55%;
+       left:7%;
+       font-size:14px;
+       width:350px;
+       
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:53%;
+       left:65%;
+       font-size:14px;
+       width:300px
+     }
   }
   
   /* 768px 至 991px 寬度的媒體查詢 */
@@ -247,7 +387,7 @@
     }
     
     .temporal {
-      top: 50vh;
+      top: 44vh;
       left: 36%;
       width: 39%;
     }
@@ -259,10 +399,44 @@
     }
     
     .occipital {
-      top: 340px;
-      left: 74%;
+      top: 295px;
+      left: 73.5%;
       width: 5.5%;
     }
+    .front-brain{
+      position:absolute;
+      top:14%;
+      left:8%;
+      font-size:12px;
+      width:200px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 10%;
+       left:65%;
+       font-size:12px;
+       width:200px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:47%;
+       left:7%;
+       font-size:12px;
+       width:250px;
+       
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:45%;
+       left:58%;
+       font-size:12px;
+       width:250px
+     }
   }
   
   /* 小於 767px 寬度的媒體查詢 */
@@ -283,7 +457,7 @@
     }
     
     .temporal {
-      top: 48vh;
+      top: 40vh;
       left: 36%;
       width: 39%;
     }
@@ -295,9 +469,43 @@
     }
     
     .occipital {
-      top: 324px;
-      left: 74%;
+      top: 270px;
+      left: 73.5%;
       width: 5.5%;
     }
+    .front-brain{
+      position:absolute;
+      top:14%;
+      left:8%;
+      font-size:12px;
+      width:200px
+      
+     }
+ 
+     .parietial-brain{
+       position:absolute;
+       top: 10%;
+       left:65%;
+       font-size:12px;
+       width:200px
+     }
+ 
+     .temporal-brain{
+       position:absolute;
+       top:47%;
+       left:7%;
+       font-size:12px;
+       width:250px;
+       
+ 
+     }
+ 
+     .occipital-brain{
+       position:absolute;
+       top:45%;
+       left:58%;
+       font-size:12px;
+       width:250px
+     }
   }
   

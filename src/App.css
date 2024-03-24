@@ -6,7 +6,8 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  background-color:black
+  background-color:black;
+  font-family:fantasy;
 }
 
 .logo {
@@ -43,4 +44,11 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@media (max-width: 700px) {
+  .flex-grow {
+    width: 100%;
+    overflow-x: hidden; /* 禁用水平滾輪 */
+  }
 }

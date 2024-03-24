@@ -1,55 +1,73 @@
 
-
+import './navbar.css'
+import { MenuOutlined,CloseOutlined } from '@ant-design/icons';
+import { useState } from 'react';
 
 function Navbar(){
-    return (
-//         <nav className="bg-black mb-40 mt-20">
-//   <div className="container mx-auto flex justify-between items-center">
-//     <a href="/" className="text-white text-lg font-bold absolute left-3.5">Logo</a>
-//     <ul style={{marginLeft:'110%',display:'flex'}} >
-//       <li><a href="#about" className="text-white font-black text-3xl mr-10 hover:text-yellow-300 transition duration-300">About</a></li>
-//       <li><a href="#services" className="text-white font-black text-3xl ml-10 hover:text-cyan-300 transition duration-300">Contact</a></li>
-//     </ul>
-  
-//     <button className="md:hidden text-white">
-//             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-//               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-//             </svg>
-//           </button>
-//   </div>
-//   <div className="md:hidden">
-//           <ul className="flex flex-col mt-2 space-y-2">
-//             <li><a href="#about" className="text-white">About Me</a></li>
-//             <li><a href="#services" className="text-white">Projects</a></li>
-//             <li><a href="#contact" className="text-white">Contact Me</a></li>
-//           </ul>
-//         </div>
-// </nav>
+  const [navbarPopUp,setNavbarPopUp]=useState(false);
 
-        <nav className="bg-black mb-40 mt-20 ">
-        <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-lg font-bold absolute left-3.5">Logo</a>
-                <ul className="flex-grow hidden md:flex md:space-x-80 font-black " >
-            <li><a href="#about" className="text-white font-black text-3xl hover:text-yellow-300  " style={{marginLeft:'760%'}} >About</a></li>
-            <li><a href="#services" className="text-white  font-black text-3xl hover:text-cyan-300 transition duration-300 " style={{marginLeft:'350%'}}>Contact</a></li>
-            {/* <li><a href="#contact" className="text-white mx-10 font-black text-3xl hover:text-lime-400 transition duration-300 ">Contact</a></li> */}
-          </ul>
-          
-          <button className="md:hidden text-white">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
-          </button>
+  // 錨點
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setNavbarPopUp(false);
+    }
+    console.log('iiiii')
+    setNavbarPopUp(false); // Close navbar popup after clicking on a link
+  };
+    return (
+      <>
+      <nav style={{display:'flex',margin:"10px",color:'white',fontSize:'30px',position:'relative'}} >
+        <div></div>
+        <div className='navbar'>
+        <div style={{position:'absolute',right:'15%'}} ><a className='text-white'onClick={()=>{scrollToSection('content')}}>About</a></div>
+        <div style={{position:'absolute',right:'2%'}}><a className='text-white' onClick={()=>{scrollToSection('contact')}}>Contact</a></div>
         </div>
-        
-        <div className="md:hidden">
-          <ul className="flex flex-col mt-2 space-y-2">
-            <li><a href="#about" className="text-white">About Me</a></li>
-            <li><a href="#services" className="text-white">Projects</a></li>
-            <li><a href="#contact" className="text-white">Contact Me</a></li>
-          </ul>
+
+
+        <div className='navbar2' >
+<MenuOutlined style={{position:'absolute',right:'2%',display:navbarPopUp ? 'none' : 'block'}} onClick={()=>setNavbarPopUp(!navbarPopUp)}/>
+<CloseOutlined style={{position:'absolute',right:'2%',display:navbarPopUp ? 'block' : 'none'}} onClick={()=>setNavbarPopUp(!navbarPopUp)}/>
+<div style={{display:navbarPopUp ? 'block' : 'none',backgroundColor:'black',width:'1100px',height:'700px',position:'absolute',top:'90%',right:'4%',zIndex:'3'}} >
+  <div className='mt-10  text-5xl cursor-pointer hover:text-blue-400' onClick={()=>{scrollToSection('content')}} >About</div>
+  <div className='mt-10  text-5xl cursor-pointer hover:text-amber-400' onClick={()=>{scrollToSection('contact')}} >Contact</div>
+</div>
         </div>
       </nav>
+      {/* <header className="header">
+     <nav className="nav container">
+     <a href="/" className="nav__logo">Logo</a>
+
+       <div
+         className={"nav__menu"}
+         id="nav-menu"
+       >
+         <ul className="nav__list">
+           
+           
+           <li className="nav__item">
+           <a href="#about" className="nav__link"  >About</a>
+
+           </li>
+           <li className="nav__item">
+           <a href="#contact" className="nav__link"  >Contact</a>
+
+           </li>
+         </ul>
+         <div className="nav__close" id="nav-close">
+           
+         </div>
+       </div>
+
+       <div className="nav__toggle" id="nav-toggle">
+         
+       </div>
+     </nav>
+   </header> */}
+
+       
+      </>
     )
 }
 
