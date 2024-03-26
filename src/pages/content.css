@@ -1,511 +1,488 @@
 /* 預設樣式 */
 .text-white {
-    color: white;
-  }
-  
-  .mt-20 {
-    margin-top: 20px;
-  }
-  
-  .bg-black {
-    background-color: black;
-  }
-  
-  /* .text-center {
+  color: white;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* .text-center {
     text-align: center;
   } */
 
-  @media screen and (min-width: 1400px) {
-    .container {
-      width: 80%;
-      margin-left: 100px;
-    }
-    
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 19%;
-      left: 28%;
-      width: 26%;
-    }
-    
-    .temporal {
-      top: 42%;
-      left: 37%;
-      width: 34%;
-    }
-    
-    .parietal {
-      top: 17%;
-      left: 50%;
-      width: 24%;
-    }
-    
-    .occipital {
-      top: 43%;
-      left: 70%;
-      width: 4%;
-    }
-
-    .front-brain{
-     position:absolute;
-     top:11%;
-     left:10%;
-     font-size:21px;
-     width:300px
-     
-    }
-
-    .parietial-brain{
-      position:absolute;
-      top: 7%;
-      left:72%;
-      font-size:21px;
-      width:300px
-    }
-
-    .temporal-brain{
-      position:absolute;
-      top:60%;
-      left:13%;
-      font-size:21px;
-      width:300px
-
-    }
-
-    .occipital-brain{
-      position:absolute;
-      top:60%;
-      left:68%;
-      font-size:21px;
-      width:300px
-    }
-  }
-  
-
-  @media screen and (min-width: 1300px)and (max-width: 1399px) {
-    .container {
-      width: 80%;
-      margin-left: 100px;
-    }
-    
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 19.5%;
-      left: 28%;
-      width: 26%;
-    }
-    
-    .temporal {
-      top: 42%;
-      left: 36%;
-      width: 36%;
-    }
-    
-    .parietal {
-      top: 17.5%;
-      left: 50%;
-      width: 25%;
-    }
-    
-    .occipital {
-      top: 40.5%;
-      left: 70%;
-      width: 5%;
-    }
-    .front-brain{
-      position:absolute;
-      top:14%;
-      left:7%;
-      font-size:20px;
-      width:300px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 7%;
-       left:71%;
-       font-size:20px;
-       width:300px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:60%;
-       left:12%;
-       font-size:20px;
-       width:300px
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:60%;
-       left:68%;
-       font-size:20px;
-       width:350px
-     }
-  }
-  
-  
-  /* 1200px 寬度以上的媒體查詢 */
-  @media screen and (min-width: 1100px)and (max-width: 1299px) {
-    .container {
-      width: 80%;
-      margin-left: 100px;
-    }
-    
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 19%;
-      left: 27%;
-      width: 29%;
-    }
-    
-    .temporal {
-      top: 55vh;
-      left: 36%;
-      width: 39%;
-    }
-    
-    .parietal {
-      top: 18%;
-      left: 51%;
-      width: 26%;
-    }
-    
-    .occipital {
-      top: 358px;
-      left: 73%;
-      width: 5.5%;
-    }
-
-    .front-brain{
-      position:absolute;
-      top:15%;
-      left:7%;
-      font-size:16px;
-      width:350px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 13%;
-       left:70%;
-       font-size:16px;
-       width:300px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:59%;
-       left:7%;
-       font-size:16px;
-       width:350px;
-       
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:60%;
-       left:68%;
-       font-size:16px;
-       width:300px
-     }
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 80%;
+    margin-left: 100px;
   }
 
-   /* 1000px 至 1199px 寬度的媒體查詢 */
-   @media screen and (min-width: 1000px) and (max-width: 1099px) {
-    .container {
-      width: 80%;
-      margin-left: 50px;
-    }
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 20%;
-      left: 26%;
-      width: 30%;
-    }
-    
-    .temporal {
-      top: 54vh;
-      left: 36%;
-      width: 39%;
-    }
-    
-    .parietal {
-      top: 19%;
-      left: 51%;
-      width: 28%;
-    }
-    
-    .occipital {
-      top: 363px;
-      left: 74%;
-      width: 5%;
-    }
-    .front-brain{
-      position:absolute;
-      top:15%;
-      left:7%;
-      font-size:16px;
-      width:300px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 9%;
-       left:70%;
-       font-size:16px;
-       width:250px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:59%;
-       left:7%;
-       font-size:16px;
-       width:350px;
-       
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:58%;
-       left:66%;
-       font-size:16px;
-       width:300px
-     }
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
   }
-  
-  
-  /* 992px 至 1199px 寬度的媒體查詢 */
-  @media screen and (min-width: 800px) and (max-width: 999px) {
-    .container {
-      width: 80%;
-      margin-left: 50px;
-    }
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 20%;
-      left: 26%;
-      width: 30%;
-    }
-    
-    .temporal {
-      top: 49vh;
-      left: 36%;
-      width: 39%;
-    }
-    
-    .parietal {
-      top: 19%;
-      left: 51%;
-      width: 28%;
-    }
-    
-    .occipital {
-      top: 325px;
-      left: 73.5%;
-      width: 5.5%;
-    }
-    .front-brain{
-      position:absolute;
-      top:15%;
-      left:5%;
-      font-size:14px;
-      width:300px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 9%;
-       left:68%;
-       font-size:14px;
-       width:250px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:55%;
-       left:7%;
-       font-size:14px;
-       width:350px;
-       
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:53%;
-       left:65%;
-       font-size:14px;
-       width:300px
-     }
+
+  .front {
+    top: 19%;
+    left: 28%;
+    width: 26%;
   }
-  
-  /* 768px 至 991px 寬度的媒體查詢 */
-  @media screen and (min-width: 629px) and (max-width: 799px) {
-    .container {
-      width: 90%;
-      margin-left: 20px;
-    }
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 20%;
-      left: 26%;
-      width: 30%;
-    }
-    
-    .temporal {
-      top: 44vh;
-      left: 36%;
-      width: 39%;
-    }
-    
-    .parietal {
-      top: 19%;
-      left: 51%;
-      width: 28%;
-    }
-    
-    .occipital {
-      top: 295px;
-      left: 73.5%;
-      width: 5.5%;
-    }
-    .front-brain{
-      position:absolute;
-      top:14%;
-      left:8%;
-      font-size:12px;
-      width:200px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 10%;
-       left:65%;
-       font-size:12px;
-       width:200px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:47%;
-       left:7%;
-       font-size:12px;
-       width:250px;
-       
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:45%;
-       left:58%;
-       font-size:12px;
-       width:250px
-     }
+
+  .temporal {
+    top: 42%;
+    left: 37%;
+    width: 34%;
   }
-  
-  /* 小於 767px 寬度的媒體查詢 */
-  @media screen and (max-width: 628px) {
-    .container {
-      width: 100%;
-      margin-left: 0;
-    }
-    .image {
-      position: absolute;
-      transition: transform 0.6s;
-    }
-    
-    .front {
-      top: 20%;
-      left: 26%;
-      width: 30%;
-    }
-    
-    .temporal {
-      top: 40vh;
-      left: 36%;
-      width: 39%;
-    }
-    
-    .parietal {
-      top: 19%;
-      left: 51%;
-      width: 28%;
-    }
-    
-    .occipital {
-      top: 270px;
-      left: 73.5%;
-      width: 5.5%;
-    }
-    .front-brain{
-      position:absolute;
-      top:14%;
-      left:8%;
-      font-size:12px;
-      width:200px
-      
-     }
- 
-     .parietial-brain{
-       position:absolute;
-       top: 10%;
-       left:65%;
-       font-size:12px;
-       width:200px
-     }
- 
-     .temporal-brain{
-       position:absolute;
-       top:47%;
-       left:7%;
-       font-size:12px;
-       width:250px;
-       
- 
-     }
- 
-     .occipital-brain{
-       position:absolute;
-       top:45%;
-       left:58%;
-       font-size:12px;
-       width:250px
-     }
+
+  .parietal {
+    top: 17%;
+    left: 50%;
+    width: 24%;
   }
-  
+
+  .occipital {
+    top: 43%;
+    left: 70%;
+    width: 4%;
+  }
+
+  .front-brain {
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    font-size: 21px;
+    width: 300px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 7%;
+    left: 72%;
+    font-size: 21px;
+    width: 300px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    font-size: 21px;
+    width: 300px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 60%;
+    left: 68%;
+    font-size: 21px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
+  .container {
+    width: 80%;
+    margin-left: 100px;
+  }
+
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 19.5%;
+    left: 28%;
+    width: 26%;
+  }
+
+  .temporal {
+    top: 42%;
+    left: 36%;
+    width: 36%;
+  }
+
+  .parietal {
+    top: 17.5%;
+    left: 50%;
+    width: 25%;
+  }
+
+  .occipital {
+    top: 40.5%;
+    left: 70%;
+    width: 5%;
+  }
+  .front-brain {
+    position: absolute;
+    top: 14%;
+    left: 7%;
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 7%;
+    left: 71%;
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 60%;
+    left: 68%;
+    font-size: 20px;
+    width: 350px;
+  }
+}
+
+/* 1200px 寬度以上的媒體查詢 */
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+  .container {
+    width: 80%;
+    margin-left: 100px;
+  }
+
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 19%;
+    left: 27%;
+    width: 29%;
+  }
+
+  .temporal {
+    top: 55vh;
+    left: 36%;
+    width: 39%;
+  }
+
+  .parietal {
+    top: 18%;
+    left: 51%;
+    width: 26%;
+  }
+
+  .occipital {
+    top: 358px;
+    left: 73%;
+    width: 5.5%;
+  }
+
+  .front-brain {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 16px;
+    width: 350px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 13%;
+    left: 70%;
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 59%;
+    left: 7%;
+    font-size: 16px;
+    width: 350px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 60%;
+    left: 68%;
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
+/* 1000px 至 1199px 寬度的媒體查詢 */
+@media screen and (min-width: 1000px) and (max-width: 1099px) {
+  .container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 20%;
+    left: 26%;
+    width: 30%;
+  }
+
+  .temporal {
+    top: 54vh;
+    left: 36%;
+    width: 39%;
+  }
+
+  .parietal {
+    top: 19%;
+    left: 51%;
+    width: 28%;
+  }
+
+  .occipital {
+    top: 363px;
+    left: 74%;
+    width: 5%;
+  }
+  .front-brain {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 9%;
+    left: 70%;
+    font-size: 16px;
+    width: 250px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 59%;
+    left: 7%;
+    font-size: 16px;
+    width: 350px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 58%;
+    left: 66%;
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
+/* 992px 至 1199px 寬度的媒體查詢 */
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  .container {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 20%;
+    left: 26%;
+    width: 30%;
+  }
+
+  .temporal {
+    top: 49vh;
+    left: 36%;
+    width: 39%;
+  }
+
+  .parietal {
+    top: 19%;
+    left: 51%;
+    width: 28%;
+  }
+
+  .occipital {
+    top: 325px;
+    left: 73.5%;
+    width: 5.5%;
+  }
+  .front-brain {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 9%;
+    left: 68%;
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    font-size: 14px;
+    width: 350px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 53%;
+    left: 65%;
+    font-size: 14px;
+    width: 300px;
+  }
+}
+
+/* 768px 至 991px 寬度的媒體查詢 */
+@media screen and (min-width: 629px) and (max-width: 799px) {
+  .container {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 20%;
+    left: 26%;
+    width: 30%;
+  }
+
+  .temporal {
+    top: 44vh;
+    left: 36%;
+    width: 39%;
+  }
+
+  .parietal {
+    top: 19%;
+    left: 51%;
+    width: 28%;
+  }
+
+  .occipital {
+    top: 295px;
+    left: 73.5%;
+    width: 5.5%;
+  }
+  .front-brain {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 47%;
+    left: 7%;
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    font-size: 12px;
+    width: 250px;
+  }
+}
+
+/* 小於 767px 寬度的媒體查詢 */
+@media screen and (max-width: 628px) {
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .image {
+    position: absolute;
+    transition: transform 0.6s;
+  }
+
+  .front {
+    top: 20%;
+    left: 26%;
+    width: 30%;
+  }
+
+  .temporal {
+    top: 40vh;
+    left: 36%;
+    width: 39%;
+  }
+
+  .parietal {
+    top: 19%;
+    left: 51%;
+    width: 28%;
+  }
+
+  .occipital {
+    top: 270px;
+    left: 73.5%;
+    width: 5.5%;
+  }
+  .front-brain {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .parietial-brain {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .temporal-brain {
+    position: absolute;
+    top: 47%;
+    left: 7%;
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .occipital-brain {
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    font-size: 12px;
+    width: 250px;
+  }
+}

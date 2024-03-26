@@ -1,18 +1,14 @@
-import './footer.css'
+import './footer.css';
 
-
-function MyFooter ( ){
-
-    return(
-        <>
-        {/* <div className="text-white mt-24 "> */}
-        <div className="text-style">
+function MyFooter() {
+  return (
+    <>
+      {/* <div className="text-white mt-24 "> */}
+      <div className="text-style">
         Copyright © 2024 ElaineChen. All rights reserved.
-        </div>
-        </>
-    )
-
+      </div>
+    </>
+  );
 }
 
-
-export default MyFooter
+export default MyFooter;
